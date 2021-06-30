@@ -6,6 +6,12 @@ authors = ["Zach Hornung <Zachhornung@comcast.net>"]
 
 [tool.poetry.dependencies]
 python = "^3.9"
+Django = "^3.2.4"
+djangorestframework = "^3.12.4"
+djangorestframework-simplejwt = "^4.7.1"
+whitenoise = "^5.2.0"
+gunicorn = "^20.1.0"
+psycopg2-binary = "^2.9.1"
 
 [tool.poetry.dev-dependencies]
 
